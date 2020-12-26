@@ -48,4 +48,4 @@ Probably possible to refactor to less DTOs.
 Application could support other more readable dateTime formats and maybe allow users to insert city names instead of IDs.
 
 While application has only two endpoints and both are GET which don't provide much room for crashing (first endpoint accepts no inputs 
-and 2nd has SQL Query which adapts to null or invalid id-s and timestamps), it would be nice to provide customExceptions/@ControolerAdvice handler. 
+and 2nd has SQL Query which adapts to null or invalid id-s and timestamps), it would be nice to provide customExceptions/@ControllerAdvice handler. 

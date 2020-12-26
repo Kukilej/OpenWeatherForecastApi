@@ -9,14 +9,12 @@ import java.io.Serializable;
 
 @Data
 @Builder
-
 @AllArgsConstructor
 @NoArgsConstructor
 public class TemperatureDTO implements Serializable {
 
     private Long city;
     private Long dt;
-
     private double temp;
 
 }
